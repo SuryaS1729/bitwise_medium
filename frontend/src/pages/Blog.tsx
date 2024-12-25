@@ -1,5 +1,9 @@
+import { BlogCard } from "../components/BlogCard"
 
 
 export const Blog = ()=>{
-    return <div> blog</div>
+    return <div>
+        
+        im a blog
+    </div>
 }
