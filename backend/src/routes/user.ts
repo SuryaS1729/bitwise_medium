@@ -95,7 +95,7 @@ userRouter.post('/signin',async(c) => {
                id: user.id
            }, c.env.JWT_SECRET)
 
-           return c.text("signed IN, here is your JWT " +jwt)
+           return c.text(jwt)
        } catch (error) {
            console.log(error)
            c.status(411)
