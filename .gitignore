@@ -14,7 +14,7 @@ config.ts
 # deps
 node_modules/
 .wrangler
-wrangler.toml
+
 frontend/src/config.ts
 # env
 .env
